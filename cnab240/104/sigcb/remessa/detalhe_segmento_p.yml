@@ -23,3 +23,15 @@ modalidade_carteira:
 nosso_numero:
   pos: [43, 57]
   picture: '9(15)'
+  
+  identificacao_distribuicao:
+  # Código adotado pela FEBRABAN para identificar o responsável pela distribuição do bloqueto.
+  # '0' = Postagem pelo Beneficiário
+  # '1' = Postagem pela CAIXA
+  # '2' = Envio para agência CAIXA
+  # '3' = Pagador via e-mail
+  # '4' = Pagador via SMS
+  #Obs.: códigos ‘2’ ‘3’ e ‘4’ só serão aceitos para Identificação da Emissão do Boleto = 1 Banco Emite
+  pos: [62,62]
+  picture: '9(1)'
+  default: '0'

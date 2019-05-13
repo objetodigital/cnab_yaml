@@ -1,0 +1,6 @@
+# Registro Detalhe - Segmento Q (Obrigatório - Remessa)
+# Baseado na documentação da caixa
+uso_exclusivo_febraban_02:
+  pos: [210, 212]
+  picture: 'X(3)'
+  default: '0'
